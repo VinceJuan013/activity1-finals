@@ -1,0 +1,110 @@
+/*===== Google Fonts =====*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap');
+/*===== Global CSS =====*/
+
+.intro {
+    color: rgb(223, 224, 244);
+    font-family: "Kaushan Script", cursive;
+}
+
+body {
+    background-image: url('tekken_8.jpg');
+    background-size: cover;
+    background-size: 100%;
+}
+
+.greet {
+    color: rgb(239, 231, 10);
+}
+
+.Year {
+    color: rgb(239, 231, 10);
+}
+
+.name {
+    color: rgb(250, 59, 139);
+}
+
+.home-text {
+    margin-top: 25%;
+}
+
+.row {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.works {
+    width: 150%;
+    height: 380px;
+    margin-top: 50%;
+    margin-left: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(139, 122, 155, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    /* Apply blur to the backdrop */
+    color: aliceblue;
+}
+
+.educs {
+    width: 110%;
+    height: 380px;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(139, 122, 155, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    /* Apply blur to the backdrop */
+    color: aliceblue;
+}
+
+.home-image {
+    margin-left: 10%;
+}
+
+.containers {
+    margin-top: 5%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+}
+
+.containerss {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.accordion {
+    margin-top: 10%;
+    /* margin-right: 10%; Adjust the margin as needed to create space between the accordion and the image */
+    position: absolute;
+    margin-right: 50%;
+    right: 0;
+    height: 50%;
+    width: 50%;
+}
+
+.vincej {
+    flex: 1;
+    margin-left: 120%;
+}
+.containerss{
+    position: absolute;
+}
+.facebook{
+    width: 1;
+    height: 1;
+}
