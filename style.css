@@ -70,6 +70,22 @@ body {
     /* Apply blur to the backdrop */
     color: aliceblue;
 }
+.educs:hover{
+    background-color: #36deff;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+.works:hover{
+    background-color: #36deff;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    color: black;
+}
 
 .home-image {
     margin-left: 10%;
