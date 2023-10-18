@@ -1,12 +1,14 @@
 /*===== Google Fonts =====*/
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Black+Ops+One&family=Caveat:wght@400;600&family=M+PLUS+1p:wght@100&family=Permanent+Marker&family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat:wght@400;600&family=M+PLUS+1p:wght@100&family=Permanent+Marker&family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap');
 /*===== Global CSS =====*/
 
 .intro {
     color: rgb(223, 224, 244);
-    font-family: "Kaushan Script", cursive;
+    font-family: "Caveat", "Press+Start+2P", "Space+Grotesk";
 }
 
 body {
@@ -92,19 +94,44 @@ body {
     /* margin-right: 10%; Adjust the margin as needed to create space between the accordion and the image */
     position: absolute;
     margin-right: 50%;
+    margin-left: 10%;
     right: 0;
     height: 50%;
     width: 50%;
+    font-family: "Caveat", "Press+Start+2P", "Space+Grotesk";
+    border-top-right-radius: 20%;
+}
+
+.accordion-body {
+    background-color: rgb(132, 127, 128);
+    color: aliceblue;
+}
+
+.accordion-button {
+    background-color: rgba(139, 122, 155, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+
+}
+
+.accordion-button:hover {
+    background-color: #f80361;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .vincej {
     flex: 1;
     margin-left: 120%;
 }
-.containerss{
+
+.containerss {
     position: absolute;
 }
-.facebook{
+
+.facebook {
     width: 1;
     height: 1;
 }
