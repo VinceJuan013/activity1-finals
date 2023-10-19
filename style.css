@@ -70,7 +70,8 @@ body {
     /* Apply blur to the backdrop */
     color: aliceblue;
 }
-.educs:hover{
+
+.educs:hover {
     background-color: #36deff;
     /* Scale the button slightly on hover */
     transform: scale(1.05);
@@ -78,7 +79,8 @@ body {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: black;
 }
-.works:hover{
+
+.works:hover {
     background-color: #36deff;
     /* Scale the button slightly on hover */
     transform: scale(1.05);
@@ -115,7 +117,8 @@ body {
     height: 50%;
     width: 50%;
     font-family: "Caveat", "Press+Start+2P", "Space+Grotesk";
-    border-top-right-radius: 20%;
+    border-top-right-radius: 50%;
+
 }
 
 .accordion-body {
@@ -150,4 +153,30 @@ body {
 .facebook {
     width: 1;
     height: 1;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* This is optional but useful for layering */
+    text-align: center;
+}
+
+.content {
+    margin-top: 60px;
+    /* Adjust this value based on the height of your navbar */
+}
+
+.nav-item:hover {
+    background-color: #f80361;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    flex-wrap: nowrap;
+    text-align: center;
+
 }
